@@ -47,3 +47,15 @@ The analytical workflow for this project follows a structured data analysis proc
 6. Generation of business intelligence insights from SQL queries
 
 This approach demonstrates how structured SQL exploration can transform administrative datasets into meaningful economic insights.
+
+## Future Analytical Extensions
+
+Further analysis can extend this project by exploring:
+
+* company formation trends across time periods  
+* industry sector distribution using SIC codes  
+* regional concentration of company registrations  
+* correlations between company category and operational status  
+
+Future work may also include visualisation of company formation patterns and integration with Python-based exploratory data analysis.
+
