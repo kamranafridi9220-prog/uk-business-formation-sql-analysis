@@ -34,3 +34,16 @@ Key questions explored:
 - SQL
 - GitHub
 - UK Companies House data
+
+## Project Workflow
+
+The analytical workflow for this project follows a structured data analysis process:
+
+1. Data acquisition from UK Companies House public datasets  
+2. Data sampling and preparation for SQL analysis  
+3. Exploration of company registration patterns  
+4. Analysis of company status distribution  
+5. Investigation of company category structures  
+6. Generation of business intelligence insights from SQL queries
+
+This approach demonstrates how structured SQL exploration can transform administrative datasets into meaningful economic insights.
