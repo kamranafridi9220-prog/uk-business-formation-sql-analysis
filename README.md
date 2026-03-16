@@ -146,4 +146,15 @@ Several insights emerge from this analysis:
 
 ---
 
-# Repository Structure
+# Conclusion
+
+This project demonstrates how publicly available company registration data can be analysed to reveal patterns in business structure, geographic distribution, and company status across the UK.
+
+Through the use of structured data analysis and visualisation techniques, the project provides insights into the composition and activity of the UK business environment.
+
+---
+
+# Author
+
+Kamran Khan  
+Corporate Account Executive | Business Intelligence & Digital Marketing
