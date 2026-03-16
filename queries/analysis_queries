@@ -1,0 +1,24 @@
+-- Top company categories
+SELECT CompanyCategory, COUNT(*) AS total
+FROM companies
+GROUP BY CompanyCategory
+ORDER BY total DESC;
+
+-- Top towns by company registrations
+SELECT PostTown, COUNT(*) AS total
+FROM companies
+GROUP BY PostTown
+ORDER BY total DESC
+LIMIT 10;
+
+-- Company status distribution
+SELECT CompanyStatus, COUNT(*) AS total
+FROM companies
+GROUP BY CompanyStatus
+ORDER BY total DESC;
+
+-- Countries registering companies in the UK
+SELECT CountryOfOrigin, COUNT(*) AS total
+FROM companies
+GROUP BY CountryOfOrigin
+ORDER BY total DESC;
