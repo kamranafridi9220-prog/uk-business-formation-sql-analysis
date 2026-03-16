@@ -1,61 +1,46 @@
 # UK Business Formation SQL Analysis
 
-SQL analysis of UK company formation data to generate business and economic insights.
-
 ## Project Overview
-
-This project explores UK Companies House data using SQL to understand patterns in company formation, company status, and business activity.
-
-The goal is to demonstrate how SQL can be used to transform public company data into structured business intelligence insights.
+This project explores UK Companies House data to analyse patterns in company formation, business structures, and regional economic activity using SQL and Excel visualisations.
 
 ## Dataset
+Source: UK Companies House open data.
 
-The analysis uses a sample of UK Companies House basic company data.
+The dataset contains information about:
+- Company name
+- Company number
+- Address and location
+- Company category
+- Company status
+- Country of origin
 
-## Project Structure
+## Key Analysis Areas
+- Company structure distribution
+- Business activity by town and county
+- Domestic vs foreign company registrations
+- Company status and business risk patterns
+- Geographic clustering of businesses
 
-- companies_sample.csv → sample dataset
-- queries/business_analysis.sql → SQL queries used in the analysis
-- README.md → project documentation
+## Visualisations
 
-## Analysis Goals
+### Company Categories
+![Company Categories](charts/top_10_company_categories.png)
 
-This project investigates patterns in UK company formation using Companies House data.
+### Business Activity by Town
+![Business Towns](charts/top_10_business_towns.png)
 
-Key questions explored:
+### Company Status Distribution
+![Company Status](charts/company_status_distribution.png)
 
-- How many companies exist in the dataset?
-- Which company statuses are most common?
-- Which company categories dominate UK registrations?
-- How has company formation evolved over time?
+### Company Origin
+![Company Origin](charts/company_origin_distribution.png)
 
 ## Tools Used
-
 - SQL
+- Excel
 - GitHub
-- UK Companies House data
 
-## Project Workflow
-
-The analytical workflow for this project follows a structured data analysis process:
-
-1. Data acquisition from UK Companies House public datasets  
-2. Data sampling and preparation for SQL analysis  
-3. Exploration of company registration patterns  
-4. Analysis of company status distribution  
-5. Investigation of company category structures  
-6. Generation of business intelligence insights from SQL queries
-
-This approach demonstrates how structured SQL exploration can transform administrative datasets into meaningful economic insights.
-
-## Future Analytical Extensions
-
-Further analysis can extend this project by exploring:
-
-* company formation trends across time periods  
-* industry sector distribution using SIC codes  
-* regional concentration of company registrations  
-* correlations between company category and operational status  
-
-Future work may also include visualisation of company formation patterns and integration with Python-based exploratory data analysis.
-
+## Key Insights
+- Private Limited Companies dominate the UK business ecosystem.
+- Business activity is heavily concentrated in major cities like London.
+- Most registered companies originate from the United Kingdom, with a smaller share of international registrations.
